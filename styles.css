@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  margin: 0px;
+}
+
+hr {
+  padding: 0rem 0rem;
+}
+
+/* Container */
+
+.container {
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.container-center {
+  margin: auto;
+  max-width: 600px;
+}
+
+:root {
+  --primary-color: #075985;
+  --dark-black: #1c1917;
+  --of-white: #e5e5e5;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 5%;
+  color: black;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 10%;
+  color: black;
+  border: 1px solid var(--primary-color);
+}
+
+/* Lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* Navigation */
+
+.navigation {
+  background-color: var(--primary-color);
+  color: black;
+  padding: 1.5rem;
+  border-radius: 0rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: black;
+}
+
+.link link-active {
+  font-weight: bold;
+}
+
+/* Header */
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  color: var(--dark-black);
+  padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted {
+  color: #075985;
+}
+
+/* Sections */
+
+.section h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.ow {
+  background-color: var(--of-white);
+  padding: 2rem;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  color: black;
+  text-align: center;
+  border-radius: 0rem;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: #e5e5e5;
+}
+
+.footer ul {
+  padding-inline-start: 6px;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
