@@ -1,5 +1,5 @@
-# myportfolio-site
+# My Portfolio is here !
 
-# This is my portfolio where i've published all my projects and blogs.
+### This is  where i've published all my projects and blogs.
 
-### Please look into it and your feedback would be appreciated 
+### Please look into it and we can connect to build projects , discuss learnings and create new stuff.
