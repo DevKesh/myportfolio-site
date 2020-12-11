@@ -4,4 +4,4 @@
 
 ### Please look into it and we can connect to build projects , discuss learnings and create new stuff.
 
-### Click [here](https://this-is-keshav.netlify.app/) to see my site
+### Click [here](https://this-is-keshav.netlify.app/) to check out my portfolio
