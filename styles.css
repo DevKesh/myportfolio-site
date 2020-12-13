@@ -103,7 +103,6 @@ hr {
   font-weight: bold;
   font-size: 1.5rem;
   display: block;
-  cursor: pointer;
 }
 
 .navigation .nav-pills {
@@ -145,12 +144,6 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-  color: #075985;
-
-}
-
-.heading-inverted{
- 
   color: #075985;
 }
 
@@ -198,7 +191,7 @@ hr {
   font-size:large;
 } 
 
-@media only screen and (max-width: 1000px) and (min-width :200px)
+@media only screen and (max-width: 768px) and (min-width :200px)
 {
 
   .list-non-bullet {
