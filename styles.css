@@ -137,6 +137,13 @@ hr {
   margin: auto;
 }
 
+.hero .hero-img-blog{
+  margin: auto;
+  display: block;
+  max-width: 350px;
+  max-height: 300px;
+}
+
 .hero .hero-heading {
   text-align: center;
   color: var(--dark-black);
