@@ -198,6 +198,11 @@ hr {
   font-size:large;
 } 
 
+.fab {
+  font-size: 40px;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) and (min-width :200px)
 {
 
@@ -206,6 +211,8 @@ hr {
     display: inline-block;
       padding: 0.5rem 0.8rem;
   }
+
+  
 
   .navigation {
     background-color: var(--primary-color);
@@ -252,5 +259,12 @@ hr {
     width: 40%;
     padding: 0.7rem 0.8rem;
   }
+
+
+.fab {
+  font-size: 40px;
+  cursor: pointer;
+  flex: column;
+}
 
 }
