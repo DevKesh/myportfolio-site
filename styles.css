@@ -12,20 +12,24 @@ hr {
 
 /* Container */
 
-.container {
+
+.container{
   padding-left: 2rem;
   padding-right: 1rem;
+  padding:1rem 1rem;
 }
 
-.container-center {
-  margin: auto;
+.container-center{
+  width: 100%;
   max-width: 600px;
+  margin: auto;
 }
 
 :root {
-  --primary-color: #075985;
-  --dark-black: #1c1917;
-  --of-white: #e5e5e5;
+  
+  --primary-color:#133b5c;
+  --dark-black: #030303;
+  --of-white: #a7c5eb;
 }
 
 .link {
@@ -38,7 +42,7 @@ hr {
 
 .link-primary {
   background-color: var(--primary-color);
-  border-radius: 12%;
+  border-radius: 0.5rem;
   color: #e5e5e5;
   text-align: center;
   margin-top: 1rem;
@@ -50,10 +54,10 @@ hr {
 
 .link-secondary {
   color: var(--primary-color);
-  border-radius: 12%;
+  border-radius: .5rem;
   color: #111827
   ;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   width: 31%;
   text-align: center;
   display: inline-block;
@@ -151,7 +155,7 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-  color: #075985;
+  color: var(--primary-color)
 }
 
 /* Sections */
@@ -159,6 +163,10 @@ hr {
 .section h1 {
   text-align: center;
   font-weight: bold;
+}
+
+.section p{
+  text-align: center;
 }
 
 .section {
@@ -172,7 +180,7 @@ hr {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   color: black;
   text-align: center;
   border-radius: 0rem;
@@ -214,7 +222,7 @@ hr {
 
   
 
-  .navigation {
+   .navigation {
     background-color: var(--primary-color);
     color:  #e5e5e5;
     padding: 1.5rem;
@@ -230,7 +238,7 @@ hr {
   .navigation .nav-pills {
     text-align: center;
     
-  }
+  } 
 
   
   .list-item-inline {
@@ -251,14 +259,15 @@ hr {
 
   .link-primary {
     font-size: 14px;
-    width: 40%;
+    width: 30%;
     padding: 0.7rem 0.8rem;
   }
   .link-secondary {
     font-size: 14px;
-    width: 40%;
+    width: 30%;
     padding: 0.7rem 0.8rem;
   }
+
 
 
 .fab {
