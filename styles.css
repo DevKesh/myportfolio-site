@@ -170,7 +170,7 @@ hr {
 }
 
 .section {
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1%;
  
 }
@@ -180,9 +180,7 @@ hr {
   padding: 2rem;
 }
 
-.blue{
- 
-}
+
 
 .footer {
   background-color: var(--primary-color);
@@ -272,6 +270,10 @@ hr {
     font-size: 14px;
     width: 30%;
     padding: 0.7rem 0.8rem;
+  }
+
+  .section p{
+    text-align: left;
   }
 
 
