@@ -171,11 +171,17 @@ hr {
 
 .section {
   padding: 2rem;
+  border-radius: 1%;
+ 
 }
 
 .ow {
   background-color: var(--of-white);
   padding: 2rem;
+}
+
+.blue{
+ 
 }
 
 .footer {
